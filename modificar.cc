@@ -6,7 +6,8 @@ using namespace std;
 int main()
 {
     cout<<"HELLO WORD!"<<endl;
-    cout<<"Si hacemos el parse"<<endl;
+    /*translating*/
+    cout<<"Yes, we do the parse"<<endl;/**/
     cout<<"first modification in new-branch"<<endl;
     return 0;
 }

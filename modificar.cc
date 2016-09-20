@@ -6,10 +6,7 @@ using namespace std;
 int main()
 {
     cout<<"HELLO WORD!"<<endl;
-<<<<<<< HEAD
     cout<<"Si hacemos el parse"<<endl;
-=======
     cout<<"first modification in new-branch"<<endl;
->>>>>>> new-branch
     return 0;
 }

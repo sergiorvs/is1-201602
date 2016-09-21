@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int sumar(int a,int b)
+int add(int a,int b)
 {
     return a+b;
 }
@@ -11,26 +11,23 @@ int sumar(int a,int b)
 void salute()
 {
 	string str="";
-	cout<<"ingrese su nombre: "; cin>>str;
-	cout<<endl<<"Hola: "<<str<<endl;
+	cout<<"enter your name: "; cin>>str;
+	cout<<endl<<"Hello: "<<str<<endl;
 }
 int main()
 {
     cout<<"HELLO WORD!"<<endl;
-
-    cout<<"nueva modificacion!!!"<<endl;
-    cout<<sumar(5,7)<<endl;
+    cout<<"new modificando!!!"<<endl;
+    cout<<add(5,7)<<endl;
     cout<<"HELLO WORD!"<<endl;
-    cout<<"Si hacemos el parse"<<endl;
+    cout<<"yes we do the parse"<<endl;
     cout<<"first modification in new-branch"<<endl;
     cout<<"hola :)"<<endl;
     cout<<"second modification in new-branch"<<endl;
-    cout<<"generanando conflictos ^^" << endl;
+    cout<<"generating conflicts ^^" << endl;
     cout<<"third modification in xime-branch"<<endl;
     for(int i=0;i<10;i++)
-    {
-      cout<<"modificacion final"<<endl; 
-    }
+         cout<<"modification end"<<endl; 
     salute();	
     return 0;
 }

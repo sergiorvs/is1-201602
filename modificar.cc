@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -7,6 +8,12 @@ int sumar(int a,int b)
     return a+b;
 }
 
+void salute()
+{
+	string str="";
+	cout<<"ingrese su nombre: "; cin>>str;
+	cout<<endl<<"Hola: "<<str<<endl;
+}
 int main()
 {
     cout<<"HELLO WORD!"<<endl;
@@ -19,10 +26,11 @@ int main()
     cout<<"hola :)"<<endl;
     cout<<"second modification in new-branch"<<endl;
     cout<<"generanando conflictos ^^" << endl;
-
     for(int i=0;i<10;i++)
     {
       cout<<"modificacion final"<<endl; 
     }
+    salute();	
     return 0;
 }
+

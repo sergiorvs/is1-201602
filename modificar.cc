@@ -25,15 +25,9 @@ int main()
     cout<<"first modification in new-branch"<<endl;
     cout<<"hola :)"<<endl;
     cout<<"second modification in new-branch"<<endl;
-<<<<<<< HEAD
     cout<<"generanando conflictos ^^" << endl;
-<<<<<<< HEAD
-=======
     cout<<"third modification in xime-branch"<<endl;
->>>>>>> ximebranch
-=======
     salute();	
->>>>>>> 8fd6cea8eed911660ae473ac883123242af15d03
     return 0;
 }
 

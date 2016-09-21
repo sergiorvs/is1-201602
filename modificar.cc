@@ -18,6 +18,10 @@ int main()
     cout<<"first modification in new-branch"<<endl;
     cout<<"hola :)"<<endl;
     cout<<"second modification in new-branch"<<endl;
+<<<<<<< HEAD
     cout<<"generanando conflictos ^^" << endl;
+=======
+    cout<<"third modification in xime-branch"<<endl;
+>>>>>>> ximebranch
     return 0;
 }

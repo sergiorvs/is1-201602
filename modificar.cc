@@ -27,6 +27,10 @@ int main()
     cout<<"second modification in new-branch"<<endl;
     cout<<"generanando conflictos ^^" << endl;
     cout<<"third modification in xime-branch"<<endl;
+    for(int i=0;i<10;i++)
+    {
+      cout<<"modificacion final"<<endl; 
+    }
     salute();	
     return 0;
 }

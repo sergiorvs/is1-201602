@@ -21,7 +21,7 @@ int main()
 void salute()
 {
 	string str="";
-	cout<<"get into his name: ";
+	cout<<"enter your name: ";
 	cin>>str;
 	std::cout<<"\nHola: "<<str<<std::endl;
 }

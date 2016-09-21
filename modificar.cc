@@ -19,5 +19,10 @@ int main()
     cout<<"hola :)"<<endl;
     cout<<"second modification in new-branch"<<endl;
     cout<<"generanando conflictos ^^" << endl;
+
+    for(int i=0;i<10;i++)
+    {
+      cout<<"modificacion final"<<endl; 
+    }
     return 0;
 }

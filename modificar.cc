@@ -31,6 +31,7 @@ int main()
     {
       cout<<"modificacion final"<<endl; 
     }
+    cout<<"hola, estamos trabajando en la NASA"<<endl;
     salute();	
     return 0;
 }

@@ -8,7 +8,7 @@ int sumar(int a,int b)
     return a+b;
 }
 
-void salute()
+void saludar()
 {
 	string str="";
 	cout<<"ingrese su nombre: "; cin>>str;
@@ -32,7 +32,7 @@ int main()
       cout<<"modificacion final"<<endl; 
     }
     cout<<"hola, estamos trabajando en la NASA"<<endl;
-    salute();	
+    saludar();	
     return 0;
 }
 
